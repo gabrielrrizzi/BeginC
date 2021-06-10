@@ -1,0 +1,12 @@
+#include <stdio.h>
+ 
+int main() {
+  int x,y;
+  float z;
+  scanf("%d %d",&x,&y);
+  scanf("%f",&z);
+  printf("NUMBER = %d\n",x);
+  printf("SALARY = U$ %f\n",y*z);
+
+    return 0;
+}
